@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Jira</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>Jira</h1>
+	<h2>Show active jiras for logged in user</h2>
+	<pre>project = ${PROJECTNAME} AND assignee in (currentUser()) AND status not in (Closed) AND status not in (cancelled)</pre>
+
+	<h2>Show closed jiras between dates</h2>
+	<pre>project = ADDO AND status = Closed AND resolutiondate &gt;= '2020-01-05' AND resolutiondate &lt;= '2021-04-20' ORDER BY resolutiondate</pre>
+</body>
+</html>

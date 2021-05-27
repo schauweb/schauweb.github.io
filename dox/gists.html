@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Gists</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Align in css</h2>
+    <p>From: <a href="https://wattenberger.com/blog/css-percents">https://wattenberger.com/blog/css-percents</a></p>
+    <pre>.self {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  translate-top: -50%;
+  translate-left: -50%;
+  transform: translate(-50%, -50%);
+}</pre>
+    <p><br /></p>
+
+	<h2>ConvertDatesExtension.cs</h2>
+	<pre>using System;
+using System.Text.RegularExpressions;
+
+namespace AddoSamples.Extensions
+{
+    // Convert from Microsoft JSON date to ISO 8601 date.
+    // Sometimes when you get JSON back from a service it will have dates in Microsoft JSON date format.
+    // Ironically, when parsing this with Microsoft.Json it fails.
+    //
+    // Usage:
+    //
+    //    var unconvertedJson = ... get from service ...
+    //    var convertedJson = unconvertedJson.ConvertDates();
+    //    var targetObject = JsonSerializer.Deserialize<TargetObject>(convertedJson);
+    //
+    public static class StringExtensions
+    {
+        static readonly Regex _convertDates = new Regex(@"(\\\/Date\()(\d+)(\)\\\/)", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+        static readonly DateTime _origo = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
+
+        public static string ConvertDates(this string src)
+        {
+            if (string.IsNullOrWhiteSpace(src))
+            {
+                return string.Empty;
+            }
+
+            return _convertDates.Replace(src, new MatchEvaluator(MillisToDate));
+        }
+
+        static string MillisToDate(Match match)
+        {
+            var matchValue = long.Parse(match.Groups[2].ToString());
+            var dateTime = _origo.AddMilliseconds(matchValue);
+            return dateTime.ToString("yyyy-MM-ddThh:mm:ssZ");
+        }
+    }
+}</pre>
+	<p><br /></p>
+
+	<h2>KeyValueProvider.ts</h2>
+	<pre>// For Ionic
+import { Injectable } from '@angular/core';
+import { Storage } from '@ionic/storage';
+
+@Injectable()
+export class KeyValueProvider {
+    constructor(private storage: Storage) { }
+
+    async get(key: string) {
+        let payload = (await this.storage.get(key));
+        return payload as T;
+    }
+
+    async remove(key: string) {
+        await this.storage.remove(key);
+        return true;
+    }
+
+    async set(key: string, val: any) {
+        let payload = val;
+        await this.storage.set(key, payload);
+        return true;
+    }
+
+    async hasKey(key: string) {
+        const allKeys = await this.storage.keys();
+        const truthy = allKeys.some(k =&gt; k === key);
+        return truthy;
+    }
+}
+
+/* Use:
+async getMyValue(){
+    const value = this.keyValueProvider.get('userData');
+    return value;
+}
+*/</pre>
+	<p><br /></p>
+
+	<h2>Makefile</h2>
+	<pre>ifeq ($(OS),Windows_NT)
+CC	=	tcc
+CFLAGS	=	-c -Wall -DWIN32
+EXE	=	.exe
+else
+CC	=	gcc
+CFLAGS	=	-c -O2 -Wall -DLinux
+EXE	=
+endif
+LDFLAGS	=
+DEPS	=	Makefile doubler.h
+DST	=	doubler
+
+all:	builddir $(DST)
+
+builddir:
+	test -d build || mkdir build
+
+$(DST):	build/main.o build/doubler.o
+	$(CC) $(LDFLAGS) -o $(DST)$(EXE) build/*.o
+
+build/main.o:	main.c $(DEPS)
+	$(CC) $(CFLAGS) main.c -o build/main.o
+
+build/doubler.o:	doubler.c $(DEPS)
+	$(CC) $(CFLAGS) doubler.c -o build/doubler.o
+
+.PHONY: clean
+clean:
+	rm -f build/*.o
+	rm -f $(DST) *~
+
+.PHONY: distclean
+distclean:	clean
+	rm -fr build</pre>
+	<p><br /></p>
+
+    <h2>Makefile (with substitutions)</h2>
+    <pre>HTML_FILES = $(filter-out _page.html, $(shell ls *.html))
+HTML_DST = $(HTML_FILES:%.html=../%.html)
+
+../%.html: %.html _page.html
+	sed -e '/@@CONTENT@@/{r $&lt;' -e 'd' -e '}' _page.html &gt; $@
+
+all: ${HTML_DST}</pre>
+    <p><br /></p>
+
+	<h2>MSUnitTest.cs</h2>
+	<pre>[TestClass]
+public class NumbersTests
+{
+    // Add the MsTest.TestAdapter and MsTest.TestFramework nuget packages to your unittest solution.
+    // Then you can annotate your method with DataTestMethod and use DataRow's to pass data to the method:
+    [DataRow(0, 0)]
+    [DataRow(1, 1)]
+    [DataRow(2, 1)]     // Yep, this wil fail :-)
+    [DataTestMethod]
+    public void VerifyThatTwoSelectedNumbersAreEqual(int number1, int number2)
+    {
+        Assert.AreEqual(number1, number2);
+    }
+}</pre>
+	<p><br /></p>
+
+	<h2>sendmail.py</h2>
+	<pre>""" sendmail """
+import configparser
+import os
+import platform
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+import requests
+import sendgrid
+from sendgrid.helpers.mail import Email
+from sendgrid.helpers.mail import Mail
+from sendgrid.helpers.mail import To
+from sendgrid.helpers.mail import Content
+
+
+class SendMail():
+    """ SendMail module """
+
+    def __init__(self, module):
+        """ Constructor.
+            Arguments:
+                module: invoking module
+        """
+        self.config = self.load_vpsrc()
+        self.home = os.path.expanduser("~")
+        self.module = module
+        if platform.system() == "Windows":
+            self.prefix = "_"
+            self.tmp = "c:/temp"
+        else:
+            self.prefix = "."
+            self.tmp = "/tmp"
+
+
+    @staticmethod
+    def load_vpsrc():
+        """ load delivery configuration. """
+        home = os.path.expanduser("~")
+        vpsrc = configparser.ConfigParser()
+        file = "_vpsrc" if platform.system() == 'Windows' else ".vpsrc"
+        vpsrc.read(os.path.join(home, file))
+        return vpsrc
+
+
+    def get_config(self, section, key):
+        """ Get the value of a key in a section.
+            Arguments:
+                section: section
+                key: key
+        """
+        return self.config[section][key]
+
+
+    def deliver(self, title, body):
+        """ Delivery email.
+            Arguments:
+                title: mail title
+                body: body text
+        """
+        method = self.config['GENERAL']['method']
+        if method == "file":
+            path = self.config['FILE']['path']
+            with open(path, "w") as html_file:
+                html_file.write(body)
+            return
+
+        if method == "smtp":
+            self.smtp_deliver(title, body)
+            return
+
+        if method == "mailgun":
+            self.mailgun_deliver(title, body)
+            return
+
+        self.sendgrid_deliver(title, body)
+
+
+    def smtp_deliver(self, title, body):
+        """ Delivery email by SMTP.
+            Arguments:
+                title: mail title
+                body: body text
+        """
+        text = "Please read this in a HTML mail user agent."
+        recipients = self.get_recipients('SMTP')
+        message = MIMEMultipart('alternative')
+        message['Subject'] = title
+        message['From'] = self.config['SMTP']['from']
+        message['To'] = ", ".join(recipients)
+        plain_text = MIMEText(text, 'plain')
+        html_text = MIMEText(body, 'html')
+        message.attach(plain_text)
+        message.attach(html_text)
+
+        mail = smtplib.SMTP('localhost')
+        mail.sendmail(message['From'], recipients, message.as_string())
+        mail.quit()
+
+
+    def mailgun_deliver(self, title, body):
+        """ Delivery email by Sendgrid.
+            Arguments:
+                title: mail title
+                body: body text
+        """
+        text = "Please read this in a HTML mail user agent."
+        requests.post(
+            self.config['MAILGUN']['url'],
+            auth=("api", self.config['MAILGUN']['auth']),
+            data={"from": self.config['MAILGUN']['from'],
+                  "to": self.get_recipients('MAILGUN'),
+                  "subject": title,
+                  "text": text,
+                  "html": body
+                 },
+        )
+
+
+    def sendgrid_deliver(self, title, body):
+        """ Delivery email by Sendgrid.
+            Arguments:
+                title: mail title
+                body: body text
+        """
+        api_key = self.config['SENDGRID']['apikey']
+        from_email = Email(self.config['SMTP']['from'])
+        to_email = To(self.config['SMTP']['to'])
+        content = Content("text/html", body)
+        mail = Mail(from_email, to_email, title, content)
+        sendgrid_api = sendgrid.SendGridAPIClient(api_key=api_key)
+        sendgrid_api.client.mail.send.post(request_body=mail.get())
+
+
+    def get_recipients(self, section):
+        """ Get the list of recipients.
+            Arguments:
+                section: major section for initial recipient.
+        """
+        recipients = []
+        for recipient in self.config[section]['to'].split(','):
+            recipients.append(recipient.strip())
+
+        if self.module not in self.config.sections():
+            return recipients
+
+        for recipient in self.config[self.module]['additional_to'].split(','):
+            recipients.append(recipient.strip())
+
+        return recipients</pre>
+	<p><br /></p>
+
+	<h2>smtp.ps1</h2>
+	<pre>Send-MailMessage -To recipient@somewhere -From me@somewhere-else -Subject "Hello" -Body "Hello, world" -SmtpServer 127.0.0.1 -Port 25</pre>
+	<p><br /></p>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# schauweb.github.io
-Schau website
+# bschau.github.io
+Woohoo - my personal web :-)

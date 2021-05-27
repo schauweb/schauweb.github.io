@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Penguins</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/penguins.css">
+</head>
+<body>
+	<h1 id="game-title">Penguins</h1>
+	<div id="main">
+		<div id="moves"></div>
+		<canvas id="game" width="920" height="128"></canvas>
+		<p id="credits">Code: <a href="https://github.com/bschau">Brian Schau</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Graphics: <a href="https://www.gameartguppy.com/">Game Art Guppy</a><br />This game is <i>NOT</i> mobile friendly.</i></p>
+	</div>
+
+	<div id="game-over" class="modal">
+		<div id="game-over-content" class="modal-content">
+			<p><br /></p>
+			<h1>Well done!</h1>
+			<p><br /></p>
+			<p>You did it in <span id="game-over-moves"></span> moves.</p>
+			<p><br /></p>
+			<div id="game-over-close" class="modal-button">OK</div>
+		</div>
+	</div>
+
+	<div id="intro" class="modal">
+		<div id="intro-content" class="modal-content">
+			<p><br /></p>
+			<h1>Objective</h1>
+			<p><br /></p>
+			<p>Get all the penguins on the left to the right,<br />and vice versa, in the least possible amount<br />of moves. Click on a penguin to move it ...</p>
+			<p><br /></p>
+			<div id="intro-close" class="modal-button">OK</div>
+		</div>
+	</div>
+
+	</div>
+	<script type="text/javascript" src="js/statemanager.js"></script>
+	<script type="text/javascript" src="js/penguin.js"></script>
+	<script type="text/javascript" src="js/inputhandler.js"></script>
+	<script type="text/javascript" src="js/globals.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+	<script type="text/javascript" src="js/intro.js"></script>
+</body>
+</html>

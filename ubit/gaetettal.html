@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>G&aelig;t et tal</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>G&aelig;t et tal</h1>
+	<pre>let Nedre = 0
+let &Oslash;vre = 0
+let G&aelig;t = 0
+input.onButtonPressed(Button.AB, function () {
+    Nedre = 1
+    &Oslash;vre = 20
+    G&aelig;t = Math.randomRange(Nedre, &Oslash;vre)
+    basic.showNumber(G&aelig;t)
+})
+input.onButtonPressed(Button.A, function () {
+    &Oslash;vre = G&aelig;t - 1
+    G&aelig;t = Math.round((&Oslash;vre + Nedre) / 2)
+    basic.showNumber(G&aelig;t)
+})
+input.onButtonPressed(Button.B, function () {
+    Nedre = G&aelig;t + 1
+    G&aelig;t = Math.round((&Oslash;vre + Nedre) / 2)
+    basic.showNumber(G&aelig;t)
+})</pre>
+	<p><br /></p>
+</body>
+</html>

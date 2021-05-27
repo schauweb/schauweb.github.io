@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>F&oslash;lg vejen</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>F&oslash;lg vejen</h1>
+	<pre>
+input.onButtonPressed(Button.A, function () {
+    if (x &gt; -1) {
+        x = x - 1
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    if (x &lt; 4) {
+        x = x + 1
+    }
+})
+let x = 1
+let l1 = 2
+let l2 = 2
+let l3 = 2
+let l4 = 2
+let l5 = 2
+let l&aelig;ngde = 0
+basic.forever(function () {
+    led.unplot(l1, 0)
+    led.unplot(l2, 1)
+    led.unplot(l3, 2)
+    led.unplot(l4, 3)
+    led.unplot(0, 4)
+    led.unplot(1, 4)
+    led.unplot(2, 4)
+    led.unplot(3, 4)
+    led.unplot(4, 4)
+    l5 = l4
+    l4 = l3
+    l3 = l2
+    l2 = l1
+    l&aelig;ngde = l&aelig;ngde + 1
+    if (l&aelig;ngde == 4) {
+        l&aelig;ngde = 0
+        if (Math.randomRange(1, 10) &lt; 6) {
+            if (l1 &gt; 0) {
+                l1 = l1 - 1
+            }
+        } else {
+            if (l1 &lt; 4) {
+                l1 = l1 + 1
+            }
+        }
+    }
+    led.plot(l1, 0)
+    led.plot(l2, 1)
+    led.plot(l3, 2)
+    led.plot(l4, 3)
+    led.plot(l5, 4)
+    led.plot(x, 4)
+    led.plot(x + 1, 4)
+    if (l5 &lt; x || l5 &gt; x + 1) {
+        basic.clearScreen()
+        basic.showIcon(IconNames.Sad)
+        basic.pause(5000)
+        control.reset()
+    }
+    basic.pause(200)
+})</pre>
+	<p><br /></p>
+</body>
+</html>

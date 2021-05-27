@@ -1,0 +1,32 @@
+body {
+	margin: 15px auto;
+	width: 960px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+p, li {
+	line-height: 20px;
+}
+
+th {
+	text-align: left;
+	padding-right: 5em;
+}
+
+#personal-info {
+	float: left;
+	width: 830px;
+}
+
+#personal-info aside {
+	float: right;
+	width: 130px;
+}
+
+#career {
+	clear: both;
+}

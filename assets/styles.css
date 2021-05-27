@@ -1,0 +1,28 @@
+body {
+	background-color: #fff;
+	font-family: 'Arvo', serif;
+	color: #333;
+	margin: 2em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Gugi', cursive;
+}
+
+a, a:visited, a:hover, a:active {
+	font-weight: bold;
+	text-decoration: none;
+	color: #558;
+}
+
+.links span a {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #99c;
+	border-bottom: 1px dotted #111;
+}
