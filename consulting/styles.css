@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+body {
+	font-family: "Russo One", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	height: 100%;
+	margin: 0 auto;
+	color: #111;
+}
+
+#outer {
+	padding: 15% 0;
+}
+
+#inner {
+	text-align: center;
+}
+
+.small {
+	font-size: 12px;
+}
+
