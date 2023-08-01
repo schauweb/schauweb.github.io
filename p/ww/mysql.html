@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>MySQL Survival Guide</title>
+	<link rel="icon" href="balloons.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>MySQL Survival Guide</h1>
+<h2>mysql_secure_installation</h2>
+<p>Before running <code>mysql_secure_installation</code> log on to MySQL as root and set a password for root:</p>
+<pre>root@server:~# mysql -u root
+mysql> alter user 'root'@'localhost' identified with mysql_native_password by 'Str0ng+Pwd';
+mysql> commit;
+mysql> flush privileges;
+mysql> exit;
+root@server:~# mysql_secure_installation</pre>
+<p>Use <b>Str0ng+Pwd</b> when prompted during the mysql_secure_installation app - set a new (stronger) password ...</p>
+<p><br /></p>
+
+</body>
+</html>
