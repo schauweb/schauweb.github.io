@@ -1,0 +1,19 @@
+body {
+	font-size: 48px;
+	line-height: 50px;
+}
+
+#ldx {
+	text-align: center;
+}
+
+#small1, #small2 {
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	font-family: tahoma, sans-serif;
+}
+
+a {
+	color: inherit;
+}
