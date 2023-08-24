@@ -9,6 +9,23 @@
 </head>
 <body>
 	<h1>Apache</h1>
+	<h2>Installation</h2>
+	<pre>apt install -y apache2 mysql-server libapache2-mod-php php-mysql
+sudo mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+FLUSH PRIVILEGES;
+EXIT;
+sudo mysql_secure_installation</pre>
+	<p>... set the following keys in <code>/etc/php/XX/[apache|cli]/php.ini</code>:</p>
+	<pre>error_log = syslog
+	upload_max_filesize = 20M
+	date.timezone = Europe/Copenhagen
+	memory_limit = 512M	# only for apache/php.ini</pre>
+	<p>... enable modules:</p>
+	<pre>a2enmod auth_basic headers rewrite socache_shmcb ssl
+	a2enmod php8.1    # optional</pre>
+	<p><br /></p>
+
 	<h2>On debian 9, sudden exits</h2>
 	<p>Add to <code>/etc/apache2/apache2.conf</code>:</p>
 <pre>Mutex posixsem</pre>

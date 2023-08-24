@@ -8,6 +8,12 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<h1>Shortcuts</h1>
+	<ul>
+		<li>Press '*' on a word to highlight all occurences.</li>
+		<li>CTRL + N for word completion.</li>
+	</ul>
+	<p><br /></p>
 	<h1>Search for nu (\xl00) character</h1>
 	<pre>/^Vx00</pre>
 	<p>... where ^V means Ctrl-V. That will search for the character whose hex value is 0x00.</p>
@@ -44,7 +50,7 @@ sudo make install</pre>
 	<p>Update the go language server:</p>
 	<pre>GO111MODULE=on go install golang.org/x/tools/gopls@latest</pre>
 
-	<p>Install latest nodejs (v19 as of this writing):</p>
+	<p>Install latest nodejs (v20 as of this writing):</p>
 	<pre>curl -sL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
 chmod 755 nodesource_setup.sh
 sudo ./nodesource_setup.sh
