@@ -7,6 +7,7 @@ class PageCalculate {
 
     show(params) {
         this.scl.showPage('calculate-page');
+		document.getElementById('eurToConvert').focus();
     }
 
     calculate() {
