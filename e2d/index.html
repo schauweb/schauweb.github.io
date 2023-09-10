@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="A simple Euro to DKK conversion app. The app is optimized for mobile usage.">
+	<meta name="theme-color" content="#ffffff">
+	<title>Euro2DKK</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" href="css/e2d.css">
+	<link rel="stylesheet" href="css/scl.css">
+	<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+	</script>
+</head>
+<body>
+	<div id="pages">
+		<div id="currency-page" class="page">
+            <div class="container">
+                <button id="convertEur" type="submit" class="base-button button-green">Omregn EUR til DKK</button>
+            </div>
+			<div class="container" id="conversions"></div>
+        </div>
+        <div id="calculate-page" class="page">
+			<div class="container">
+                <button id="calculate-back" type="submit" class="base-button button-green">&larr; Tilbage</button>
+                <p><br /></p>
+				<input type="text" placeholder="Indtast Euro €" name="eurToConvert" value="" id="eurToConvert" required>
+				<button id="calculate" type="submit" class="base-button button-purple">Omregn</button>
+                <p><br /></p>
+                <p id="calculate-result"></p>
+			</div>
+		</div>
+	</div>
+	<script src="js/PageCalculate.js"></script>
+	<script src="js/PageCurrency.js"></script>
+	<script src="js/Scl.js"></script>
+	<script src="js/Storage.js"></script>
+	<script src="js/e2d.js"></script>
+</body>
+</html>

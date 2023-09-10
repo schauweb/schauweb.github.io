@@ -1,0 +1,33 @@
+.container {
+	padding: 1em;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+}
+
+td:nth-child(2) {
+    padding-right: 2em;
+}
+th:nth-child(3) {
+    padding-left: 2em;
+}
+
+td {
+    text-align: right;
+}
+
+.input-error {
+    background-color: #ffa1a1;
+}
+
+#calculate-result {
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+}
