@@ -1,4 +1,4 @@
-const CACHE_NAME = "pxsc-v8";
+const CACHE_NAME = "pxsc-v9";
 
 self.addEventListener('install', function(event) {
     event.waitUntil(
@@ -23,6 +23,7 @@ self.addEventListener('install', function(event) {
                 'js/Storage.js',
                 'index.html',
                 'manifest.json',
+				'Ubuntu-Regular.ttf',
                 'css/pxsc.css',
                 'css/scl.css'
             ]);
