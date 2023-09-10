@@ -1,5 +1,7 @@
 {
 	"name": "PXSC",
+    "short_name": "PXSC",
+    "display": "standalone",
 	"icons": [{
 		"src": "img/android-chrome-192x192.png",
 		"sizes": "192x192",
@@ -11,6 +13,5 @@
 	}],
 	"theme_color": "#000000",
 	"background_color": "#ffffff",
-    "display": "standalone",
     "start_url": "/"
 }
