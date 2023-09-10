@@ -22,7 +22,6 @@ self.addEventListener('install', function(event) {
                 'js/Scl.js',
                 'js/Storage.js',
                 'index.html',
-                'manifest.json',
 				'Ubuntu-Regular.ttf',
                 'css/pxsc.css',
                 'css/scl.css'
