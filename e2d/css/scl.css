@@ -47,7 +47,7 @@ input[type=text], input[type=password], option, select {
 
 .button-green {
 	background-color: #1bc791;
-	color: white;
+	color: #222;
 }
 
 button:hover {
