@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Potta One';
+	src: url('PottaOne-Regular.ttf');
+}
+
+html, body {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Potta One';
+	margin: 0 auto;
+}
+
+#game {
+	position: fixed;
+	display: block;
+	/* For display scaling */
+	padding: 0;
+	max-height: 100%;
+	max-width: 100%;
+	transform-origin: 0 0;
+	/* End */
+}
+
+#game-over, #intro {
+	display: none;
+}
+
+.modal {
+	display: none;
+	width: 500px;
+	height: 370px;
+	position: fixed;
+	top: calc(50% - 185px);
+	left: calc(50% - 250px);
+	z-index: 100;
+}
+
+.modal-content {
+	background-color: rgba(254, 254, 254, 0.8);
+	border: 1px solid #888;
+	text-align: center;
+	box-shadow: 5px 10px 5px #666;
+}
+
+h1.modal-content {
+	color: #855;
+	font-size: 50px;
+}
+
+p.modal-content {
+	font-size: 24px;
+	color: #333;
+}
+
+#game-over-moves {
+	font-size: 36px;
+	color: #855;
+}
+
+.modal-button {
+	color: #558;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	margin: 2em auto;
+	border: 2px dashed #558;
+	line-height: 40px;
+	cursor: pointer;
+	display: inline;
+}
+
+a {
+	color: #bbb;
+	text-decoration: none;
+}
+
+#bottom {
+	height: 1px;
+	display: block;
+}
+
+#sound-ctrl {
+	position: absolute;
+	top: 0.7em;
+	left: 1em;
+	z-index: 1000;
+	text-align: center;
+	color: #558;
+	width: 1.8em;
+	height: 1.8em;
+	font-size: 24px;
+	border: 2px dashed #558;
+	line-height: 40px;
+	cursor: pointer;
+}
