@@ -18,6 +18,7 @@ if (window.location.hash) {
 }
 
 const scl = new Scl(window, 'orientalizer', '#translation-page');
+//const scl = new Scl(window, '', '#translation-page');
 let routes = {
     '#translation-page': new Translation(scl),
 }

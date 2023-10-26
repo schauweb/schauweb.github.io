@@ -1,10 +1,10 @@
 const addResourcesToCache = async (resources) => {
-    const cache = await caches.open("v1");
+    const cache = await caches.open("v3");
     await cache.addAll(resources);
 };
 
 const putInCache = async (request, response) => {
-    const cache = await caches.open("v1");
+    const cache = await caches.open("v3");
     await cache.put(request, response);
 };
 
@@ -46,7 +46,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("install", (event) => {
     event.waitUntil(
         addResourcesToCache([
-            '/pxsc',
+            '/pxsc/',
             '/pxsc/css/pxsc.css',
             '/pxsc/css/scl.css',
             '/pxsc/img/10-12.png',

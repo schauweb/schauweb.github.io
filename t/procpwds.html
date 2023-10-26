@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Pronounceable Passwords</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body onload="init()">
+	<h1>Pronounceable Passwords</h1>
+	<div class="chunk">
+		<label for="length">Length:</label>
+		<input type="text" id="length" name="length" value="" />
+	</div>
+	<div class="chunk">
+		<label for="length">Digits:</label>
+		<input type="text" id="digits" name="digits" value="" />
+	</div>
+	<div>
+		<button id="generate" class="base-button button-purple">Generate</button>
+	</div>
+	<p><br /></p>
+	<pre id="result"></pre>
+	<p><br /></p>
+	<script src="procpwds.js" defer></script>
+</body>
+</html>

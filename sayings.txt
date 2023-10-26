@@ -1,6 +1,6 @@
 %
 There are more ways to do one thing. This is one way.
-####-- Donald Duck in _Donald turns Ninja_.
+    -- Donald Duck in Donald turns Ninja.
 %
 Smith & Wesson - The original point and click interface ...
 %
@@ -17,78 +17,78 @@ You are always responsible for how you act no matter how you feel.
 Remember that.
 %
 Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole live believing it is stupid.
-####-- Albert Einstein
+    -- Albert Einstein
 %
 Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.
-####-- Steve Jobs
+    -- Steve Jobs
 %
 My job is to not be easy on people. My job is to make them better.
-####-- Steve Jobs
+    -- Steve Jobs
 %
 People think focus means saying yes to the thing you have got to focus on. But that is not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully.
-####-- Steve Jobs
+    -- Steve Jobs
 %
-When I was 17, I read a quote that went something like: _"If you live each day as if it was your last, someday you will most certainly be right."_ It made an impression on me, and since then, for the past 33 years, I have looked in the mirror every morning and asked myself: _"If today were the last day of my life, would I want to do what I am about to do today?"_ And whenever the answer has been *No* for too many days in a row, I know I need to change something.
-####-- Steve Jobs
+When I was 17, I read a quote that went something like: "If you live each day as if it was your last, someday you will most certainly be right." It made an impression on me, and since then, for the past 33 years, I have looked in the mirror every morning and asked myself: "If today were the last day of my life, would I want to do what I am about to do today?" And whenever the answer has been "No" for too many days in a row, I know I need to change something.
+    -- Steve Jobs
 %
-_DWIMNWIS_: Do What I Mean, Not What I Say.
+DWIMNWIS: Do What I Mean, Not What I Say.
 %
-_BLAMESTORMING_: Sitting around in a group, discussing why a deadline was missed or a project failed, and who was responsible.
+BLAMESTORMING: Sitting around in a group, discussing why a deadline was missed or a project failed, and who was responsible.
 %
-_SEAGULL MANAGER_: A manager who flies in, makes a lot of noise, craps on everything, and then leaves.
+SEAGULL MANAGER: A manager who flies in, makes a lot of noise, craps on everything, and then leaves.
 %
-_ASSMOSIS_: The process by which some people seem to absorb success and advancement by kissing up to the boss rather than working hard.
+ASSMOSIS: The process by which some people seem to absorb success and advancement by kissing up to the boss rather than working hard.
 %
-_SALMON DAY_: The experience of spending an entire day swimming upstream only to get screwed and die in the end.
+SALMON DAY: The experience of spending an entire day swimming upstream only to get screwed and die in the end.
 %
-_CUBE FARM_: An office filled with cubicles.
+CUBE FARM: An office filled with cubicles.
 %
-_PRAIRIE DOGGING_: When someone yells or drops something loudly in a cube farm, and people's heads pop up over the walls to see what's going on.
+PRAIRIE DOGGING: When someone yells or drops something loudly in a cube farm, and people's heads pop up over the walls to see what's going on.
 %
-_MOUSE POTATO_: The on-line, wired generation's answer to the couch potato.
+MOUSE POTATO: The on-line, wired generation's answer to the couch potato.
 %
-_SITCOM_: *S*ingle *I*ncome, *T*wo *C*hildren, *O*ppressive *M*ortgage. What yuppies turn into when they have children and one of them stops working to stay home with the kids.
+SITCOM: Single Income, Two Children, Oppressive Mortgage. What yuppies turn into when they have children and one of them stops working to stay home with the kids.
 %
-_STRESS PUPPY_: A person who seems to thrive on being stressed out and whiney.
+STRESS PUPPY: A person who seems to thrive on being stressed out and whiney.
 %
-_SWIPEOUT_: An ATM or credit card that has been rendered useless because the magnetic strip is worn away from extensive use.
+SWIPEOUT: An ATM or credit card that has been rendered useless because the magnetic strip is worn away from extensive use.
 %
-_XEROX SUBSIDY_: Euphemism for swiping free photocopies from one's workplace copy machine.
+XEROX SUBSIDY: Euphemism for swiping free photocopies from one's workplace copy machine.
 %
-_IRRITAINMENT_: Entertainment and media spectacles that are annoying but you find yourself unable to stop watching them. The J-Lo and Ben wedding (or not) was a prime example.
+IRRITAINMENT: Entertainment and media spectacles that are annoying but you find yourself unable to stop watching them. The J-Lo and Ben wedding (or not) was a prime example.
 %
-_PERCUSSIVE MAINTENANCE_: The fine art of whacking the crap out of an electronic device to get it to work again.
+PERCUSSIVE MAINTENANCE: The fine art of whacking the crap out of an electronic device to get it to work again.
 %
-_ADMINISPHERE_: The rarefied organizational layers beginning just above the rank and file. Decisions that fall from the adminisphere are often profoundly inappropriate or irrelevant to the problems they were designed to solve.
+ADMINISPHERE: The rarefied organizational layers beginning just above the rank and file. Decisions that fall from the adminisphere are often profoundly inappropriate or irrelevant to the problems they were designed to solve.
 %
-_404_: Someone who's clueless. From the World Wide Web error message "404 Not Found" meaning that the requested document could not be located.
+404: Someone who's clueless. From the World Wide Web error message "404 Not Found" meaning that the requested document could not be located.
 %
-_GENERICA_: Features of the landscape that are exactly the same no matter where one is, such as fast food joints, strip malls, and subdivisions.
+GENERICA: Features of the landscape that are exactly the same no matter where one is, such as fast food joints, strip malls, and subdivisions.
 %
-_OHNOSECOND_: That minuscule fraction of time in which you realize that you've just made a BIG mistake.
+OHNOSECOND: That minuscule fraction of time in which you realize that you've just made a BIG mistake.
 %
-_WOOFs_: *W*ell-*O*ff *O*lder *F*olks.
+WOOFs: Well-Off Older Folks.
 %
-_CROP DUSTING_: Surreptitiously farting while passing through a Cube Farm.
+CROP DUSTING: Surreptitiously farting while passing through a Cube Farm.
 %
 Microsoft should switch to the vacuum cleaner business where people actually want products that suck.
 %
 Windows Longhorn is so vaporous it's in danger of being added to the periodic table as a noble gas.
 %
-*Windows*: Where do you want to go today?
-*MacOS*: Where do you want to be tomorrow?
-*Linux*: Are you coming or what?
+Windows: Where do you want to go today?
+MacOS: Where do you want to be tomorrow?
+Linux: Are you coming or what?
 %
-MCSE: *M*entally *C*hallenged *S*lave of the *E*mpire.
+MCSE: Mentally Challenged Slave of the Empire.
 %
-*Linux*: Where do you want to GO... Oh, I'm already there!
+Linux: Where do you want to GO... Oh, I'm already there!
 %
-_Windows_ contains FAT.
-Use _Linux_ -- you won't ever have to worry about your weight.
+Windows contains FAT.
+Use Linux -- you won't ever have to worry about your weight.
 %
-_Windows_: The first user interface where you click *Start* to turn it off.
+Windows: The first user interface where you click Start to turn it off.
 %
-NT: *N*o *T*hanks
+NT: No Thanks
 %
 If Microsoft were to vanish, who would we hate next?
 %
@@ -101,93 +101,93 @@ Gates' Law: Every 18 months, the speed of software halves.
 With Windows Millennium, Microsoft was able to get the boot time down to 25 seconds. That's almost as short as it's uptime.
 %
 In the force if Yoda's so strong, construct a sentence with words in the proper order then why can't he?
-####-- Unknown
+    -- Unknown
 %
 I've got all the money I'll ever need if I die by 4 o'clock.
-####-- Henny Youngman
+    -- Henny Youngman
 %
 I've had a perfectly wonderful evening. But this wasn't it.
-####-- Groucho Marx
+    -- Groucho Marx
 %
 Imagine if every Thursday your shoes exploded if you tied them the usual way. This happens to us all the time with computers, and nobody thinks of complaining.
-####-- Jeff Raskin
+    -- Jeff Raskin
 %
 If a small child asks you where rain comes from, I think a reasonable response is simply that "God is crying."
 And, if he asks you why God is crying, the only possible answer is "Probably because of something you did."
-####-- Unknown
+    -- Unknown
 %
 Every morning in Africa, a gazelle wakes up. It knows it must run faster than the fastest lion or it will be killed. Every morning a lion wakes up. It knows it must outrun the slowest gazelle or it will starve to death.
 It doesn't matter whether you are a lion or a gazelle: when the sun comes up, you'd better be running.
-####-- Unknown
+    -- Unknown
 %
 Some people seem to think that "damn" is God's last name.
-####-- Unknown
+    -- Unknown
 %
-_Law of Mechanical Repair_: After your hands become coated with grease your nose will begin to itch or you'll have to pee.
+Law of Mechanical Repair: After your hands become coated with grease your nose will begin to itch or you'll have to pee.
 %
-_Law of the Workshop_: Any tool, when dropped, will roll to the least accessible corner.
+Law of the Workshop: Any tool, when dropped, will roll to the least accessible corner.
 %
-_Law of probability_: The probability of being watched is directly proportional to the stupidity of your act.
+Law of probability: The probability of being watched is directly proportional to the stupidity of your act.
 %
-_Law of the Telephone_: When you dial a wrong number, you never get a busy signal.
+Law of the Telephone: When you dial a wrong number, you never get a busy signal.
 %
-_Law of the Alibi_: If you tell the boss you were late for work because you had a flat tire, the very next morning you will have a flat tire.
+Law of the Alibi: If you tell the boss you were late for work because you had a flat tire, the very next morning you will have a flat tire.
 %
-_Variation Law_: If you change lines (or traffic lanes), the one you were in will start to move faster than the one you are in now. (Works every time).
+Variation Law: If you change lines (or traffic lanes), the one you were in will start to move faster than the one you are in now. (Works every time).
 %
-_Bath Theorem_: When the body is fully immersed in water, the telephone rings.
+Bath Theorem: When the body is fully immersed in water, the telephone rings.
 %
-_Law of Close Encounters_: The probability of meeting someone you know increases when you are with someone you don't want to be seen with.
+Law of Close Encounters: The probability of meeting someone you know increases when you are with someone you don't want to be seen with.
 %
-_Law of the Result_: When you try to prove to someone that a machine won't work, it will.
+Law of the Result: When you try to prove to someone that a machine won't work, it will.
 %
-_Law of Biomechanics_: The severity of the itch is inversely proportional to the reach.
+Law of Biomechanics: The severity of the itch is inversely proportional to the reach.
 %
-_Theater Rule_: At any event, the people whose seats are furthest from the aisle arrive last.
+Theater Rule: At any event, the people whose seats are furthest from the aisle arrive last.
 %
-_Law of Coffee_: As soon as you sit down to a cup of hot coffee, your boss will ask you to do something which will last until the coffee is cold.
+Law of Coffee: As soon as you sit down to a cup of hot coffee, your boss will ask you to do something which will last until the coffee is cold.
 %
-_Murphy's Law of Lockers_: If there are only two people in a locker room, they will have adjacent lockers.
+Murphy's Law of Lockers: If there are only two people in a locker room, they will have adjacent lockers.
 %
-_Law of Dirty Rugs/Carpets_: The chances of an open-faced jelly sandwich of landing face down on a floor covering are directly correlated to the newness and cost of the carpet/rug.
+Law of Dirty Rugs/Carpets: The chances of an open-faced jelly sandwich of landing face down on a floor covering are directly correlated to the newness and cost of the carpet/rug.
 %
-_Law of Location_: No matter where you go, there you are.
+Law of Location: No matter where you go, there you are.
 %
-_Law of Logical Argument_: Anything is possible if you don't know what you are talking about.
+Law of Logical Argument: Anything is possible if you don't know what you are talking about.
 %
-_Brown's Law_: If the shoe fits, it's ugly.
+Brown's Law: If the shoe fits, it's ugly.
 %
-_Oliver's Law_: A closed mouth gathers no feet.
+Oliver's Law: A closed mouth gathers no feet.
 %
-_Wilson's Law_: As soon as you find a product that you really like, they will stop making it.
+Wilson's Law: As soon as you find a product that you really like, they will stop making it.
 %
-_Law of Aches and Pains_: When you finally make an appointment with the doctor for an ache that's been bothering you for months, it will disappear shortly before the scheduled appointment (and return just after you cancel it).
+Law of Aches and Pains: When you finally make an appointment with the doctor for an ache that's been bothering you for months, it will disappear shortly before the scheduled appointment (and return just after you cancel it).
 %
 Owww, look at me Marge, I'm making people Happy! I'm the magical man, from Happy Land, who lives in a gumdrop house on Lolly Pop Lane!!!!...... By the way I was being sarcastic...
-####-- Homer Simpson
+    -- Homer Simpson
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Are you sexually active?
 Witness: No, I just lie there.
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: What gear were you in at the moment of the impact?
 Witness: Gucci sweats and Reeboks. 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: This myasthenia gravis, does it affect your memory at all?
 Witness: Yes
 Attorney: And in what ways does it affect your memory?
 Witness: I forget.
 Attorney: You forget? Can you give us an example of something you forgot? 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: What was the first thing your husband said to you that morning?
 Witness: He said, "Where am I, Cathy?"
 Attorney: And why did that upset you?
 Witness: My name is Susan! 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Do you know if your daughter has ever been involved in voodoo?
 Witness: We both do.
 Attorney: Voodoo?
@@ -195,25 +195,25 @@ Witness: We do.
 Attorney: You do?
 Witness: Yes, voodoo. 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Now doctor, isn't it true that when a person dies in his sleep, he doesn't know about it until the next morning?
 Witness: Did you actually pass the bar exam? 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: The youngest son, the twenty-year-old, how old is he?
 Witness: Uh, he's twenty-one. 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Were you present when your picture was taken?
 Witness: Are you shittin' me? 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: So the date of conception (of the baby) was August 8th?
 Witness: Yes.
 Attorney: And what were you doing at that time?
 Witness: Uh.... I was gettin' laid! 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: She had three children, right?
 Witness: Yes.
 Attorney: How many were boys?
@@ -221,41 +221,41 @@ Witness: None.
 Attorney: Were there any girls?
 Witness: Are you shittin' me? Your Honor, I think I need a different attorney. Can I get a new attorney? 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: How was your first marriage terminated?
 Witness: By death.
 Attorney: And by whose death was it terminated?
 Witness: Now whose death do you suppose terminated it?
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Can you describe the individual?
 Witness: He was about medium height and had a beard.
 Attorney: Was this a male or a female?
 Witness: Guess. 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Is your appearance here this morning pursuant to a deposition notice which I sent to your attorney?
 Witness: No, this is how I dress when I go to work. 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Doctor, how many of your autopsies have you performed on dead people?
 Witness: All my autopsies are performed on dead people. Would you like to rephrase that? 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: All your responses MUST be oral, OK? What school did you go to?
 Witness: Oral. 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Do you recall the time that you examined the body?
 Witness: The autopsy started around 8:30 p.m.
 Attorney: And Mr. Denton was dead at the time?
 Witness: No, he was sitting on the table wondering why I was doing an autopsy on him! 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Are you qualified to give a urine sample?
 Witness: Huh .. are you qualified to ask that question? 
 %
-_Disorder in the American Courts Re-Visited_
+Disorder in the American Courts Re-Visited
 Attorney: Doctor, before you performed the autopsy, did you check for a pulse?
 Witness: No.
 Attorney: Did you check for blood pressure?
@@ -269,122 +269,122 @@ Witness: Because his brain was sitting on my desk in a jar.
 Attorney: I see, but could the patient have still been alive, nevertheless?
 Witness: Yes, it is possible that he could have been alive and practicing law.
 %
-_A Knights Tale_
-(_Chaucer singing_) "He's quick, he's funny, he makes me lots of money, Lichtenstein! Lichtenstein!"
+A Knights Tale
+(Chaucer singing) "He's quick, he's funny, he makes me lots of money, Lichtenstein! Lichtenstein!"
 %
 When a man steals your wife, there is no better revenge than to let him keep her.
-####-- David Bissonette
+    -- David Bissonette
 %
 After marriage, husband and wife become two sides of a coin; they just can't face each other, but still they stay together.
-####-- Sacha Guitry
+    -- Sacha Guitry
 %
 By all means marry. If you get a good wife, you'll be happy. If you get a bad one, you'll become a philosopher.
-####-- Socrates
+    -- Socrates
 %
 Woman inspires us to great things, and prevents us from achieving them.
-####-- Anonymous
+    -- Anonymous
 %
 The great question... which I have not been able to answer... is, 'What does a woman want?'
-####-- Dumas
+    -- Dumas
 %
 I had some words with my wife, and she had some paragraphs with me.
-####-- Sigmund Freud
+    -- Sigmund Freud
 %
 Some people ask the secret of our long marriage. We take time to go to a restaurant two times a week. A little candlelight, dinner, soft music and dancing. She goes Tuesdays, I go Fridays.
-####-- Anonymous
+    -- Anonymous
 %
 There's a way of transferring funds that is even faster than electronic banking. It's called marriage.
-####-- Sam Kinison
+    -- Sam Kinison
 %
 I've had bad luck with both my wives. The first one left me, and the second one didn't.
-####-- James Holt McGavran
+    -- James Holt McGavran
 %
 Two secrets to keep your marriage brimming:
 1. Whenever you're wrong, admit it,
 2. Whenever you're right, shut up.
-####-- Patrick Murray
+    -- Patrick Murray
 %
 The most effective way to remember your wife's birthday is to forget it once...
-####-- Nash
+    -- Nash
 %
 You know what I did before I married? Anything I wanted to.
-####-- Anonymous
+    -- Anonymous
 %
 My wife and I were happy for twenty years. Then we met.
-####-- Henny Youngman
+    -- Henny Youngman
 %
 A good wife always forgives her husband when she's wrong.
-####-- Rodney Dangerfield
+    -- Rodney Dangerfield
 %
 A man inserted an 'ad' in the classifieds: 'Wife wanted'.
 Next day he received a hundred letters.
 They all said the same thing: 'You can have mine.'
-####-- Anonymous
+    -- Anonymous
 %
 First Guy (proudly): 'My wife's an angel!'
 Second Guy: 'You're lucky, mine's still alive.'
-####-- Anonymous
+    -- Anonymous
 %
-_Man on Fire_
+Man on Fire
 Elderly Man: In the church, they say to forgive.
 Creasy: Forgiveness is between them and God. It's my job to arrange the meeting.
 %
-_Man on Fire_
+Man on Fire
 Rayburn: A man can be an artist... in anything, food, whatever. It depends on how good he is at it. Creasys art is death. He's about to paint his masterpiece.
 %
-_Man on Fire_
+Man on Fire
 Pita: What was your first girlfriends' name?
 Creasy: Nonya.
 Pita: Nonya who?
 Creasy: Nonya business.
 %
-_Man on Fire_
+Man on Fire
 Creasy: Revenge is a meal best served cold.
 %
-_Man on Fire_
+Man on Fire
 Creasy: Do you think God'll forgive us for what we've done?
 Rayburn: No.
 %
-_Man on Fire_
+Man on Fire
 Pita: I love you, Creasy. And you love me too, don't you?
 Creasy: Yes, I do. With all my heart, Pita. Go.
 %
-_Man on Fire_
+Man on Fire
 Creasy: I am going to ask questions. If you don't answer fully and truthfully, you will suffer much more than you have to. I'm going to cut your fingers off. One by one, if I have to.
 %
-_Man on Fire_
+Man on Fire
 Creasy: I got all the time in the world. You don't, but I do.
 %
-_Man on Fire_
+Man on Fire
 Rayburn: He'll deliver more justice in a weekend than ten years of your courts and tribunals.
 %
-_Man on Fire_
+Man on Fire
 Creasy: Okay, my friend. It's off to the next life for you. I guarantee you, you won't be lonely.
 %
-_Man on Fire_
+Man on Fire
 [Creasy is planning to go after Fuentes, a high-ranking corrupt police lieutenant]
 Mariana: He's better protected than the president of Mexico!
 Creasy: He's gonna need it.
 %
-_Man on Fire_
+Man on Fire
 Creasy: There is no such thing as tough. There is trained and untrained. Now which are you?
 %
-_Man on Fire_
+Man on Fire
 [Creasy is being shown mugshots after Pita's kidnapping]
 Manzano: Do you recognize any of these men?
 Creasy: No. That make me a suspect?
 Manzano: No. It would be convenient, but no.
 %
-_Man on Fire_
+Man on Fire
 Creasy: Do you know what this is? It's a charger used by convicts to hide money and drugs they tuck it up their rectum. This is pencil detonator, timer, used as a receiver from the pager. This is C4 highly explosive - you put it all together you've got a bomb, not very sophisticated, but very powerful.
 [whispers in his ear]
 Creasy: That's what you have in your ass right now. Don't move! Don't move!
 %
-_Did you know?_
-*Spetsnaz*: Russian, means Special Forces but is also the sound you make when you sneeze really hard.
+Did you know?
+Spetsnaz: Russian, means Special Forces but is also the sound you make when you sneeze really hard.
 %
-_Did you know?_
-*Capo di Tutti Capi*: Italian, means Boss of the Bosses - a term used for the head honcho of the Mafia. Also, in some places it is a very delicius ice cream.
+Did you know?
+Capo di Tutti Capi: Italian, means Boss of the Bosses - a term used for the head honcho of the Mafia. Also, in some places it is a very delicius ice cream.
 %
 Some things Man was never meant to know. For everything else, there's Google.
 %
@@ -412,7 +412,7 @@ My software never has bugs. It just develops random features.
 %
 Better to be a geek than an idiot.
 %
-Geek's favorite pickup line: _Hey, does this rag smell like chloroform?_
+Geek's favorite pickup line: Hey, does this rag smell like chloroform?
 %
 Be nice to geeks when you're in school, you might end-up working for one when you grow-up.
 %
@@ -433,8 +433,8 @@ If you give someone a program, you will frustrate them for a day; if you teach t
 %
 It is easier to change the specification to fit the program than vice versa.
 %
-I had a fortune cookie the other day and it said: _"Outlook not so good"_.
-I said: _"Sure, but Microsoft ships it anyway!"_
+I had a fortune cookie the other day and it said: "Outlook not so good".
+I said: "Sure, but Microsoft ships it anyway!"
 %
 The term reboot comes from the middle age (before computers). Horses who stopped in mid-stride required a boot to the rear to start again. Thus the term to rear-boot, later abbreviated into reboot.
 %
@@ -448,213 +448,213 @@ Interviewer: They're the teenage Russian lesbians.
 Morrissey: Well, aren't we all?
 %
 Forgotten Assembly Language Commands:
-####*BEW* - Branch Either Way
+    BEW - Branch Either Way
 %
 Forgotten Assembly Language Commands:
-####*BH* - Branch and Hang
+    BH - Branch and Hang
 %
 Forgotten Assembly Language Commands:
-####*CLBR* - Clobber Register
+    CLBR - Clobber Register
 %
 Forgotten Assembly Language Commands:
-####*CLBRI* - Clobber Register Immediately
+    CLBRI - Clobber Register Immediately
 %
 Forgotten Assembly Language Commands:
-####*CPAR* - Crumple Paper and Rip
+    CPAR - Crumple Paper and Rip
 %
 Forgotten Assembly Language Commands:
-####*CRB* - Crash and Burn
+    CRB - Crash and Burn
 %
 Forgotten Assembly Language Commands:
-####*EEL* - Enter endless loop
+    EEL - Enter endless loop
 %
 Forgotten Assembly Language Commands:
-####*EROS* - Erase Read Only Storage
+    EROS - Erase Read Only Storage
 %
 Forgotten Assembly Language Commands:
-####*ERP* - Erase pointer
+    ERP - Erase pointer
 %
 Forgotten Assembly Language Commands:
-####*FS* - Freeze System
+    FS - Freeze System
 %
 Forgotten Assembly Language Commands:
-####*HCF* - Halt and Catch Fire
+    HCF - Halt and Catch Fire
 %
 "Yo moma is like HTML: tiny head, huge body!"
 %
 An SQL statement walks into a bar and see two tables. It approaches, and asks: "May I join you?"
 %
 One One Twenty Twenty-Nine, tonight the stars are shining bright
-####-- Front 242
+    -- Front 242
 %
 Junk metal in the Air! It's a total nightmare - at 20,000 feet!
-####-- Pop Will Eat Itself
+    -- Pop Will Eat Itself
 %
 Trouble here is that trouble never happens.
-####-- Pop Will Eat Itself
+    -- Pop Will Eat Itself
 %
 Is a dream a lie if it don't come true?
-####-- Bruce Springsteen
+    -- Bruce Springsteen
 %
 We're talking root down, I put my boot down
 And if you want to battle me, you're putting loot down
-####-- Beastie Boys
+    -- Beastie Boys
 %
 Soy un perdedor
 I'm a loser baby
 so why don't you kill me?
-####-- Beck
+    -- Beck
 %
 Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to build bigger and better idiots. So far, the universe is winning.
-####-- Rick Cook
+    -- Rick Cook
 %
 Lisp isn't a language, it's a building material.
-####-- Alan Kay
+    -- Alan Kay
 %
 Walking on water and developing software from a specification are easy if both are frozen.
-####-- Edward V Berard
+    -- Edward V Berard
 %
 They don't make bugs like Bunny anymore.
-####-- Olav Mjelde
+    -- Olav Mjelde
 %
 A programming language is low level when its programs require attention to the irrelevant.
-####-- Alan J. Perlis
+    -- Alan J. Perlis
 %
 A C program is like a fast dance on a newly waxed dance floor by people carrying razors.
-####-- Waldi Ravens
+    -- Waldi Ravens
 %
 I have always wished for my computer to be as easy to use as my telephone - my wish has come true because I can no longer figure out how to use my telephone.
-####-- Bjarne Stroustrup
+    -- Bjarne Stroustrup
 %
 Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
-####-- Eric S. Raymond
+    -- Eric S. Raymond
 %
 Don't worry if it doesn't work right. If everything did, you'd be out of a job.
-####-- Mosher's Law of Software Engineering
+    -- Mosher's Law of Software Engineering
 %
 I think Microsoft named .Net so it wouldn't show up in a Unix directory listing.
-####-- Oktal
+    -- Oktal
 %
 Fine, Java MIGHT be a good example of what a programming language should be like. But Java applications are good examples of what applications SHOULDN'T be like.
-####-- pixadel
+    -- pixadel
 %
 Considering the current sad state of our computer programs, software development is clearly still a black art, and cannot yet be called an engineering discipline.
-####-- Bill Clinton
+    -- Bill Clinton
 %
 The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense.
-####-- E.W. Dijkstra
+    -- E.W. Dijkstra
 %
 In the one and only true way. The object-oriented version of 'Spaghetti code' is, of course, 'Lasagna code'. (Too many layers).
-####-- Roberto Waltman
+    -- Roberto Waltman
 %
 FORTRAN is not a flower but a weed - it is hardy, occasionally blooms, and grows in every computer.
-####-- Alan J. Perlis
+    -- Alan J. Perlis
 %
 For a long time it puzzled me how something so expensive, so leading edge, could be so useless. And then it occurred to me that a computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match.
-####-- Bill Bryson
+    -- Bill Bryson
 %
 In My Egotistical Opinion, most people's C programs should be indented six feet downward and covered with dirt.
-####-- Blair P. Houghton
+    -- Blair P. Houghton
 %
 When someone says: 'I want a programming language in which I need only say what I wish done', give him a lollipop.
-####-- Alan J. Perlis
+    -- Alan J. Perlis
 %
 The evolution of languages: FORTRAN is a non-typed language. C is a weakly typed language. Ada is a strongly typed language. C++ is a strongly hyped language.
-####-- Ron Sercely
+    -- Ron Sercely
 %
 Good design adds value faster than it adds cost.
-####-- Thomas C. Gale
+    -- Thomas C. Gale
 %
 Python's a drop-in replacement for BASIC in the sense that Optimus Prime is a drop-in replacement for a truck.
-####-- Cory Dodt
+    -- Cory Dodt
 %
 Talk is cheap. Show me the code.
-####-- Linus Torvalds
+    -- Linus Torvalds
 %
 Perfection [in design] is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-####-- Antoine de Saint-Exupry
+    -- Antoine de Saint-Exupry
 %
 C is quirky, flawed, and an enormous success.
-####-- Dennis M. Ritchie
+    -- Dennis M. Ritchie
 %
 In theory, theory and practice are the same. In practice, they're not.
-####-- Yoggi Berra
+    -- Yoggi Berra
 %
 You can't have great software without a great team, and most software teams behave like dysfunctional families.
-####-- Jim McCarthy
+    -- Jim McCarthy
 %
 PHP is a minor evil perpetrated and created by incompetent amateurs, whereas Perl is a great and insidious evil, perpetrated by skilled but perverted professionals.
-####-- Jon Ribbens
+    -- Jon Ribbens
 %
 Programming is like kicking yourself in the face, sooner or later your nose will bleed.
-####-- Kyle Woodbury
+    -- Kyle Woodbury
 %
 Perl - The only language that looks the same before and after RSA encryption.
-####-- Keith Bostic
+    -- Keith Bostic
 %
 It is easier to port a shell than a shell script.
-####-- Larry Wall
+    -- Larry Wall
 %
 I invented the term 'Object-Oriented', and I can tell you I did not have C++ in mind.
-####-- Alan Kay
+    -- Alan Kay
 %
 Learning to program has no more to do with designing interactive software than learning to touch type has to do with writing poetry.
-####-- Ted Nelson
+    -- Ted Nelson
 %
 The best programmers are not marginally better than merely good ones. They are an order-of-magnitude better, measured by whatever standard: conceptual creativity, speed, ingenuity of design, or problem-solving ability.
-####-- Randall E. Stross
+    -- Randall E. Stross
 %
 If McDonalds were run like a software company, one out of every hundred Big Macs would give you food poisoning, and the response would be, "We're sorry, here's a coupon for two more."
-####-- Mark Minasi
+    -- Mark Minasi
 %
 Beware of bugs in the above code; I have only proved it correct, not tried it.
-####-- Donald E. Knuth
+    -- Donald E. Knuth
 %
 Computer system analysis is like child-rearing; you can do grievous damage, but you cannot ensure success.
-####-- Tom DeMarco
+    -- Tom DeMarco
 %
 I don't care if it works on your machine! We are not shipping your machine!
-####-- Vidiu Platon
+    -- Vidiu Platon
 %
 Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.
-####-- Christopher Thompson
+    -- Christopher Thompson
 %
 Measuring programming progress by lines of code is like measuring aircraft building progress by weight.
-####-- Bill Gates
+    -- Bill Gates
 %
 Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
-####-- Brian W. Kernighan
+    -- Brian W. Kernighan
 %
 People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.
-####-- Donald Knuth
+    -- Donald Knuth
 %
 First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack.
-####-- George Carrette
+    -- George Carrette
 %
 Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris.
-####-- Larry Wall
+    -- Larry Wall
 %
 Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
-####-- Alan Kay
+    -- Alan Kay
 %
 The trouble with programmers is that you can never tell what a programmer is doing until it's too late.
-####-- Seymour Cray
+    -- Seymour Cray
 %
 To iterate is human, to recurse divine.
-####-- L. Peter Deutsch
+    -- L. Peter Deutsch
 %
 On two occasions I have been asked [by members of Parliament]: 'Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?'
 I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.
-####-- Charles Babbage
+    -- Charles Babbage
 %
 Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.
-####-- Linus Torvalds
+    -- Linus Torvalds
 %
 Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
-####-- Martin Golding
+    -- Martin Golding
 %
 There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.
-####-- C.A.R. Hoare
+    -- C.A.R. Hoare
 %
 Give a man a fish and he'll eat for a day.
 Teach him how to phish and he'll be phraudulently set up for life!
@@ -662,7 +662,7 @@ Teach him how to phish and he'll be phraudulently set up for life!
 Day is never finished
 Massa got me working
 Someday Massa set me free ...
-####-- Cartman (Episode 112: Mecha Streisand)
+    -- Cartman (Episode 112: Mecha Streisand)
 %
 CFO asks his CEO: "What happens if we invest in developing our people and then they leave the company?"
 CEO answers: "What happens if we don't, and they stay?" 
@@ -680,28 +680,28 @@ During sex you burn as much calories as running for 8 kilometers.
 Who the fuck runs 8 kilometers in 30 seconds?
 %
 If you always put limits on everything you do, physical or anything else, it will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.
-####-- Bruce Lee
+    -- Bruce Lee
 %
-There are seven days in the week and _someday_ isn't one of them.
+There are seven days in the week and someday isn't one of them.
 %
 Imagine if you carried on believing in Santa and the tooth fairy into adulthood. And even killed and started wars over it. Haha. Imagine that.
-####-- Ricky Gervais (on religion)
+    -- Ricky Gervais (on religion)
 %
 I have never been insulted by hateful satanists for not believing in their devil. Only by loving Christians for not believing in their God.
-####-- Ricky Gervais (on religion)
+    -- Ricky Gervais (on religion)
 %
-"@MTVNews: Beyonce, Rihanna and Katy Perry send prayers to \#Oklahoma \#PrayForOklahoma".
+"@MTVNews: Beyonce, Rihanna and Katy Perry send prayers to #Oklahoma #PrayForOklahoma".
 I feel like an idiot now ... I only sent money.
-####-- Ricky Gervais (on religion)
+    -- Ricky Gervais (on religion)
 %
 It is almost as if The Bible was written by racist, sexist, homophobic, violent, sexually frustrated men, instead of a loving God. Weird.
-####-- Ricky Gervais (on religion)
+    -- Ricky Gervais (on religion)
 %
 First they came for the jews ... and I did not speak out because I was not a jew.
 Then they came for the Communists ... and I did not speak out because I was not a communist.
 Then they came for the trade unionists ... and I did not speak out because I was not a trade unionist.
 Then they came for me ... and there was no one left to speak out for me.
-####-- Martin Niemoller
+    -- Martin Niemoller
 %
 Everyone brings happiness and joy to our home.
 Some when they come and other when they leave.
@@ -710,41 +710,41 @@ There are 10 types of people in this world, those who understand binary and thos
 %
 Let's face it. After Monday and Tuesday even the calendar says WTF!
 %
-Don't confuse my _personality_ with my _attitude_.
-My *personality* is who I am, my *attitude* depends on who you are ...
+Don't confuse my personality with my attitude.
+My personality is who I am, my attitude depends on who you are ...
 %
 Arguing with a woman is like reading the Software License Agreement. In the end, you ignore everything and click "I agree".
 %
-If you fail, never give up because _FAIL_ means *First Attempt In Learning*. End is not the end, in fact _END_ means *Effort Never Dies*. If you get no as an answer, remember _NO_ means *Next Opportunity*.
+If you fail, never give up because FAIL means First Attempt In Learning. End is not the end, in fact END means Effort Never Dies. If you get no as an answer, remember NO means Next Opportunity.
 %
-_Did you know?_
-If you have a pizza with radius 'z' and thickness 'a', it's volume is Pi\*z\*z\*a.
+Did you know?
+If you have a pizza with radius 'z' and thickness 'a', it's volume is Pi*z*z*a.
 %
 It ain't what they call you, it's what you answer to.
-####-- W.C. Fields
+    -- W.C. Fields
 %
 I cook with wine, sometimes I even add it to the food.
-####-- W.C. Fields
+    -- W.C. Fields
 %
 If you can't dazzle them with brilliance, baffle them with bullshit.
-####-- W.C. Fields
+    -- W.C. Fields
 %
 Start every day off with a smile and get it over with.
-####-- W.C. Fields
+    -- W.C. Fields
 %
 Horse sense is the thing a horse has which keeps it from betting on people.
-####-- W.C. Fields
+    -- W.C. Fields
 %
 I spent half my money on gambling, alcohol and wild women. The other half I wasted.
-####-- W.C. Fields
+    -- W.C. Fields
 %
-_Automobile_, n.: A four-wheeled vehicle that runs up hills and down pedestrains.
+Automobile, n.: A four-wheeled vehicle that runs up hills and down pedestrains.
 %
-When a short person waves at you it's called a _micro-wave_.
+When a short person waves at you it's called a micro-wave.
 %
 To tell the truth, I don't even try
 A life in knots that I don't untie.
-####-- Nitzer Ebb (I Give To You)
+    -- Nitzer Ebb (I Give To You)
 %
 "Of course I am not perfect!
  There is a crack in my ass."
@@ -792,7 +792,7 @@ Only bugs and fixes.
 %
 Code never lies,
 comments sometimes do.
-####-- Anonymous
+    -- Anonymous
 %
 Not Yet
 Not Yet
@@ -801,15 +801,15 @@ Not Yet
 Not Yet
 Eat Me Now
 Too Late
-####-- Avocados
+    -- Avocados
 %
 struct SoftwareProfessional
 {
-####double#salary;
-####long###lunches;
-####float##jobs;
-####char###unstable;
-####void###work;
+    double salary;
+    long   lunches;
+    float  jobs;
+    char   unstable;
+    void   work;
 };
 %
 Marriage ... a three ring circus: engagement ring, wedding ring, and suffering.
@@ -937,7 +937,7 @@ Never laugh at your wife's choices.
 You're one of them ... :-)
 %
 Politicians and diapers must be changed often, and for the same reason.
-####-- Mark Twain
+    -- Mark Twain
 %
 Don't take criticism from people you would never go to for advice.
 %
@@ -968,7 +968,7 @@ Same thing - not one canary there either!
 %
 In the end, it's not the years in your life that count.
 It's the life in your years.
-####-- Abraham Lincoln
+    -- Abraham Lincoln
 %
 A perfect marriage is just two imperfect people who refuse to give up on each other.
 %
@@ -1026,7 +1026,7 @@ Rearrange these letters to form words:
 1. PNEIS
 2. BUTTSXE
 
-Did you get *spine* and *subtext*?
+Did you get spine and subtext?
 Yeah .. neither did I.
 %
 Went swimming today. Took a pee in the deep end.
@@ -1076,12 +1076,12 @@ Probably cursed or haunted.
 %
 Not to brag but I don't even need alcohol to make really bad decisions.
 %
-_Debugging_: Being the detective in a crime movie where you are also the murderer.
+Debugging: Being the detective in a crime movie where you are also the murderer.
 %
 Features, quality, time: pick two.
-####-- Anonymous
+    -- Anonymous
 %
-_Did you know?_
+Did you know?
 The probability of there being two bombs on a plane is infinitesimally small, so you can keep yourself safe by always bringing your own bomb with you.
 %
 Atheist tombstone: "Joe Atheist, born - lived - died. I knew this was coming so I lived my life to the fullest and did my best to help my fellow man. P.S: I am not in heaven or hell. I'm dead."
@@ -1108,28 +1108,28 @@ We see the world suffering, but still, we get married and have children. That is
 On an old man's shirt was written a sentence: "I am not 80 years old. I am sweet 16 with 64 years of experience." That is attitude.
 %
 If robbers ever broke into my house and searched for money, I'd just laugh and search with them.
-####-- Pakalu Papito
+    -- Pakalu Papito
 %
 Don't worry password - I am insecure, too.
-####-- Pakalu Papito
+    -- Pakalu Papito
 %
 I feel like I'm already tired tomorrow.
-####-- Pakalu Papito
+    -- Pakalu Papito
 %
 If you ever need nothing, I'm here for you.
-####-- Pakalu Papito
+    -- Pakalu Papito
 %
 I live for two reasons:
 1. I was born.
 2. I haven't died yet.
-####-- Pakalu Papito
+    -- Pakalu Papito
 %
 With great power comes great electricity bill.
-####-- Pakalu Papito
+    -- Pakalu Papito
 %
 When I die I want to go peacefully like my grandfather did, in his sleep.
 Not screaming like the passengers in his taxi.
-####-- Pakalu Papito
+    -- Pakalu Papito
 %
 Thought for the day ...
 Handle stressful situations like a dog.
@@ -1183,10 +1183,10 @@ Because they're dead.
 %
 Calvin: I imagine bugs and girls have a dim perception that nature played a cruel trick on them, but they lack the intelligence to really comprehend the magnitude of it.
 %
-*Two traps* you need to avoid:
+Two traps you need to avoid:
 
-1. _Caring_ what they think.
-2. _Thinking_ that they care.
+1. Caring what they think.
+2. Thinking that they care.
 %
 What is the difference between Dubai and Abu Dhabi?
 The people in Dubai don't like the Flintstones but the people in Abu Dhabi Doooo ...
@@ -1195,12 +1195,12 @@ I'm not as young as I used to be ...
 But I'm sure not as old as I'm going to be!
 %
 I'm always right. This time I'm just even more right than usual.
-####-- Linus Torvalds
+    -- Linus Torvalds
 %
 Smelly fart
 Is my art
 And it ain't even hard!
-####-- Brian
+    -- Brian
 %
 If it's not broken, fix it until it is.
 %
@@ -1306,13 +1306,13 @@ When you are worried nobody sees your pain.
 When you are happy nobody sees your smile.
 But you fart one time ... OMG!
 %
-_SNACCIDENT_ [snac-ci-dent], noun. Eating an entire bag of chips ny mistake.
+SNACCIDENT [snac-ci-dent], noun. Eating an entire bag of chips ny mistake.
 %
 A dream written down and given a date becomes a goal.
 A goal broken down into concrete steps becomes a plan.
 A plan followed by action makes your dreams come true.
 %
-The huge spider in my room is now called _Cotton Eyed Joe_ because I want to know two things:
+The huge spider in my room is now called Cotton Eyed Joe because I want to know two things:
 
 1. Where did he come from?
 2. Where did he go?

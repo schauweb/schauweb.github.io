@@ -1,4 +1,4 @@
-const cacheName = "v2";
+const cacheName = "v4";
 
 const addResourcesToCache = async (resources) => {
     const cache = await caches.open(cacheName);
@@ -48,7 +48,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("install", (event) => {
     event.waitUntil(
         addResourcesToCache([
-            '/e2d',
+            '/e2d/',
             '/e2d/css/e2d.css',
             '/e2d/css/scl.css',
             '/e2d/img/android-chrome-192x192.png',

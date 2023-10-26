@@ -1,4 +1,4 @@
-const cacheName = "v1";
+const cacheName = "v3";
 
 const addResourcesToCache = async (resources) => {
     const cache = await caches.open(cacheName);
@@ -48,7 +48,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("install", (event) => {
     event.waitUntil(
         addResourcesToCache([
-            '/orientalizer',
+            '/orientalizer/',
             '/orientalizer/css/main.css',
             '/orientalizer/img/android-chrome-192x192.png',
             '/orientalizer/img/android-chrome-512x512.png',
