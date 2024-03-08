@@ -46,6 +46,16 @@ if test -d "$HOME/.npm-global"; then
 	export PATH="$NPM_PACKAGES/bin:$NPM_PACKAGES:$PATH"
 fi
 
+if test -e "$HOME/.scripts/trelloexport.py"; then
+	if test -d "$HOME/Documents/00-Backups"; then
+		alias texp="cd $HOME/Documents/00-Backups; /usr/bin/python3 $HOME/.scripts/trelloexport.py; cd -"
+	elif test -d "$HOME/GDrive/00-Backups"; then
+		alias texp="cd $HOME/GDrive/00-Backups; /usr/bin/python3 $HOME/.scripts/trelloexport.py; cd -"
+	else
+		alias texp="cd $HOME; /usr/bin/python3 $HOME/.scripts/trelloexport.py; cd -"
+	fi
+fi
+
 type -p fortune >/dev/null
 if test $? -eq 0; then
 	alias updqotd="mkdir -p $HOME/.qotd; curl -o $HOME/.qotd/qotd https://schau.dk/sayings.txt; strfile -c % $HOME/.qotd/qotd $HOME/.qotd/qotd.dat"
