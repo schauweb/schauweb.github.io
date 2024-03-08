@@ -46,10 +46,6 @@ if test -d "$HOME/.npm-global"; then
 	export PATH="$NPM_PACKAGES/bin:$NPM_PACKAGES:$PATH"
 fi
 
-if test -d "/opt/bin"; then
-	export PATH="/opt/bin:$PATH"
-fi
-
 type -p fortune >/dev/null
 if test $? -eq 0; then
 	alias updqotd="mkdir -p $HOME/.qotd; curl -o $HOME/.qotd/qotd https://schau.dk/sayings.txt; strfile -c % $HOME/.qotd/qotd $HOME/.qotd/qotd.dat"
@@ -68,7 +64,7 @@ alias sauk='python3 -m http.server'
 export CLICOLOR="yes"
 export EDITOR="vim"
 export LS_COLORS='no=00;37:fi=00:di=00;33:ln=04;36:pi=40;33:so=01;35:bd=40;33;01:'
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.scripts:$HOME/.local/bin:$PATH"
 
 echo
 echo "Welcome ${USER:=$USERNAME}!" 

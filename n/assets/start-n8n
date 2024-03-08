@@ -1,7 +1,0 @@
-#!/bin/bash
-{
-	echo "Starting ngrok"
-	ngrok start eplogr &
-	npx n8n
-} | tee /home/bs/n8n.log
-exit 0
