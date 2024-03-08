@@ -1,0 +1,76 @@
+# Place in $HOME/.myprofilerc
+#
+# Add to .bashrc:
+#
+#	. $HOME/.myprofilerc
+#
+
+function count
+{
+	if test $# -eq 0; then
+		echo "Usage: count column [file]"
+		return
+	fi
+
+	c=$1
+	if test $# -gt 1; then
+		file=$2
+	else
+		file=/dev/stdin
+	fi
+
+	awk -v col=$c '
+// { sum+=$col }
+END { print sum }' $file
+}
+
+function movtomp4
+{
+	if test $# -eq 0; then
+		echo "Usage: movtomp4 file.mov"
+		return
+	fi
+
+	base="${1%.*}"
+	ffmpeg -i "$1" "${base}.mp4"
+}
+
+if test -d "$HOME/go"; then
+	GOPATH="$HOME/go"
+	GOBIN="$GOPATH/bin"
+	export PATH="$GOBIN:/usr/local/go/bin:$PATH"
+fi
+
+if test -d "$HOME/.npm-global"; then
+	export NPM_PACKAGES="$HOME/.npm-global"
+	export PATH="$NPM_PACKAGES/bin:$NPM_PACKAGES:$PATH"
+fi
+
+if test -d "/opt/bin"; then
+	export PATH="/opt/bin:$PATH"
+fi
+
+type -p fortune >/dev/null
+if test $? -eq 0; then
+	alias updqotd="mkdir -p $HOME/.qotd; curl -o $HOME/.qotd/qotd https://ldx.dk/sayings.txt; strfile -c % $HOME/.qotd/qotd $HOME/.qotd/qotd.dat"
+	alias qotd="fortune $HOME/.qotd/qotd"
+fi
+
+alias ll='ls -lpF'
+alias sysupd='sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y'
+alias evtupd="curl -o $HOME/.eventsrc https://ldx.dk/happenings.json"
+alias sshr='ssh rsync'
+
+export CLICOLOR="yes"
+export EDITOR="vim"
+export LS_COLORS='no=00;37:fi=00:di=00;33:ln=04;36:pi=40;33:so=01;35:bd=40;33;01:'
+export PATH="$HOME/.local/bin:$PATH"
+
+echo
+echo "Welcome ${USER:=$USERNAME}!" 
+echo
+if test -s "$HOME/.qotd/qotd.dat"; then
+	fortune $HOME/.qotd/qotd
+	echo
+fi
+

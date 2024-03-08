@@ -1,0 +1,47 @@
+set nocompatible		" enable lots of cool things - MUST BE FIRST
+
+syntax on
+syntax enable			" enable syntax processing
+set hidden			" TextEdit might fail if not hidden
+set cmdheight=2			" More space for displaying messages
+set modelines=1			" number of lines start/end to read for config
+set foldenable			" enable folding
+set foldcolumn=1		" extra spacing
+set foldlevel=2
+set backup			" enable backups
+set encoding=utf-8		" utf-8
+set fileencoding=utf-8		" utf-8
+set ai				" enable auto-indenting
+set showmatch			" show matching braces
+set backspace=indent,eol,start	" backspace
+set clipboard=unnamed		" set clipboard as default register
+set tabstop=8			" virtual spaces in a tab
+set incsearch			" search while typing
+set hlsearch			" show search highlights
+set updatetime=300		" Better experience
+set shortmess+=c		" Don't pass messages to |ins-completion-menu|.
+set signcolumn=number		" (or =yes) always show gutter
+nnoremap <leader><space> :nohlsearch<CR>
+
+set ruler			" show ruler at bottom
+set cursorline			" highlight line with cursor
+set visualbell			" flash screen on error
+set laststatus=2		" always show status
+set showmode			" hint insert/command
+set lazyredraw			" only redraw when needed (speeds up macros)
+" Statusline
+set statusline=%<%F%h%m%r\ [%{&ff}]\ (%{strftime(\"%H:%M\ %d/%m/%Y\",getftime(expand(\"%:p\")))})%=%l,%c%V\ %P
+"set bg=dark			" enable dark mode
+
+highlight BadWhitespace ctermbg=red guibg=darkred	" For BadWhitespace match below
+
+if has("autocmd")
+" To reveal filetype, open the file and type    :set ft?
+	autocmd FileType html setlocal shiftwidth=2 tabstop=2
+	autocmd FileType fs setlocal shiftwidth=2 tabstop=2
+	autocmd FileType python setlocal shiftwidth=4 tabstop=4 expandtab textwidth=79
+	autocmd FileType typescript setlocal shiftwidth=4 tabstop=4
+	autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
+	autocmd FileType md setlocal fileencoding=utf-8
+	au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.ts,*.js,*.html match BadWhitespace /\s\+$/	" Show bad whitespaces
+endif
