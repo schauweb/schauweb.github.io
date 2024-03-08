@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Russo+One');
-
 body {
-	font-family: "Russo One", sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	height: 100%;
@@ -32,4 +30,51 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+.stuff-small {
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.column {
+	flex: 24%;
+	max-width: 24%;
+	padding: 0 4px;
+	margin: 0 auto;
+}
+
+.entry {
+	vertical-align: middle;
+	width: 100%;
+	line-height: 20px;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+.entry img {
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 1200px) {
+	.column {
+		flex: 49%;
+		max-width: 49%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+		padding: 0 0;
+	}
 }

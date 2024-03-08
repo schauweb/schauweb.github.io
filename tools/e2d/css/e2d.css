@@ -1,0 +1,38 @@
+.container {
+	padding: 1em;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    width: 35%;
+}
+
+td.middle {
+    text-align: center;
+    width: 25%;
+}
+
+td.right {
+    text-align: right;
+    width: 35%;
+}
+
+.input-error {
+    background-color: #ffa1a1;
+}
+
+#calculate-result {
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+}

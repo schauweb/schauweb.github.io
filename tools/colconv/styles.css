@@ -1,0 +1,61 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.chunk {
+	margin-bottom: 1em;
+}
+
+label {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.input-error {
+	background-color: #ffa1a1;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-radius: 15px;
+	font-size: 16px;
+}
+
+.base-button {
+	padding: 12px 20px;
+	margin: 8px 0px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-size: 1em;
+	border-radius: 15px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.button-grey {
+	background-color: #e7e7e7;
+	color: black;
+}
+
+.button-purple {
+	background-color: #911dff;
+	color: white;
+}
+
+.button-green {
+	background-color: #1bc791;
+	color: #222;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Color Converter</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body onload="init()">
+	<h1>Color Converter</h1>
+	<div class="chunk">
+		<label for="hex">Hex:</label>
+		<input type="text" id="hex" name="hex" value="" placeholder="[#]xxxxxx" />
+		<button id="convertHex" class="base-button button-green">Convert</button>
+	</div>
+	<div class="chunk">
+		<label for="dec">Dec:</label>
+		<input type="text" id="dec" name="dec" value="" placeholder="x y z" />
+		<button id="convertDec" class="base-button button-green">Convert</button>
+	</div>
+	<div class="chunk">
+		<label for="gles">GLES:</label>
+		<input type="text" id="gles" name="gles" value="" placeholder="0.x 0.y 0.z" />
+		<button id="convertGles" class="base-button button-green">Convert</button>
+	</div>
+	<p><br /></p>
+	<script src="colconv.js" defer></script>
+</body>
+</html>

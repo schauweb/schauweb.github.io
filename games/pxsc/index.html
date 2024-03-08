@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="A simple Phase 10 Score Card app. The app is optimized for mobile usage.">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="PXSC">
+	<title>PXSC</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" href="css/pxsc.css" defer>
+	<link rel="stylesheet" href="css/scl.css" defer>
+	<script>
+const registerServiceWorker = async () => {
+    if ("serviceWorker" in navigator) {
+        try {
+            const registration = await navigator.serviceWorker.register("/games/pxsc/sw.js", {
+                scope: "/games/pxsc/",
+            });
+
+            if (registration.installing) {
+                console.log("Service worker installing");
+            } else if (registration.waiting) {
+                console.log("Service worker installed");
+            } else if (registration.active) {
+                console.log("Service worker active");
+            }
+        } catch (error) {
+            console.error(`Registration failed with ${error}`);
+        }
+    }
+};
+
+registerServiceWorker();
+	</script>
+</head>
+<body>
+	<div id="pages">
+		<div id="players-page" class="page">
+			<h1>Players</h1>
+			<div class="container">
+				<label for="newPlayer"><b>Add new player:</b></label>
+				<input type="text" placeholder="New player name" name="newPlayer" value="" id="newPlayer" required>
+				<button id="add-player" type="submit" class="base-button button-purple">Add Player</button>
+			</div>
+			<h3 id="players-title">Players, this game</h3>
+			<div class="container">
+				<div id="players-list"></div>
+			</div>
+			<div class="container">
+				<button id="start-game" type="submit" class="base-button button-green hidden">Start Game</button>
+				<button id="continue-game" type="submit" class="base-button button-purple hidden">Continue Game</button>
+			</div>
+		</div>
+		<div id="game-page" class="page">
+			<div class="container">
+				<div id="rounds-list"></div>
+			</div>
+			<div class="container">
+				<button id="back-to-players" type="submit" class="base-button button-purple">Back</button>
+			</div>
+		</div>
+		<div id="score-page" class="page">
+			<div class="container">
+				<h1 id="score-player-name"></h1>
+				<label for="newScore"><b>Score:</b></label>
+				<input type="text" placeholder="Score" name="newScore" value="" id="newScore" required>
+				<label for="phaseList"><b>Phase:</b></label>
+				<select id="phaseList">
+				</select>
+			</div>
+			<div class="container">
+				<button id="score-back" type="submit" class="base-button button-green">Save</button>
+			</div>
+			<div class="container">
+				<div class="score-cards">
+					<div class="score-card score-card-left">
+						<img src="img/1-9.png" alt="1-9" width="129" height="96" />
+						<br />
+						<span>5 pts</span>
+					</div>
+					<div class="score-card score-card-right">
+						<img src="img/10-12.png" alt="10-12" width="98" height="96" />
+						<br />
+						<span>10 pts</span>
+					</div>
+				</div>
+				<br style="clear: both" />
+				<div class="score-cards">
+					<div class="score-card score-card-left">
+						<img src="img/skip.png" alt="Skip" width="71" height="96" />
+						<br />
+						<span>15 pts</span>
+					</div>
+					<div class="score-card score-card-right">
+						<img src="img/wild.png" alt="Wild" width="76" height="96" />
+						<br />
+						<span>25 pts</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/PageGame.js" defer></script>
+	<script src="js/PagePlayers.js" defer></script>
+	<script src="js/PageScore.js" defer></script>
+	<script src="js/Player.js" defer></script>
+	<script src="js/PlayerRepository.js" defer></script>
+	<script src="js/Scl.js" defer></script>
+	<script src="js/Storage.js" defer></script>
+	<script src="js/pxsc.js" defer></script>
+</body>
+</html>
