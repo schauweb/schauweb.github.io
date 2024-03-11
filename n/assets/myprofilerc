@@ -70,11 +70,17 @@ alias remtilde='find . -type f -iname "*~" -exec rm -vf {} \;'
 alias wi='find . -type f -iname'
 alias wid='find . -type d -iname'
 alias sauk='python3 -m http.server'
+alias eplogr='python3 $HOME/.scripts/eplogr.py'
 
 export CLICOLOR="yes"
 export EDITOR="vim"
 export LS_COLORS='no=00;37:fi=00:di=00;33:ln=04;36:pi=40;33:so=01;35:bd=40;33;01:'
 export PATH="$HOME/.scripts:$HOME/.local/bin:$PATH"
+
+if test -s "$HOME/.n8nrc"; then
+	echo "Sourcing n8nrc ..."
+	. $HOME/.n8nrc
+fi
 
 echo
 echo "Welcome ${USER:=$USERNAME}!" 
