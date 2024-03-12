@@ -39,6 +39,17 @@ if test -d "$HOME/go"; then
 	GOPATH="$HOME/go"
 	GOBIN="$GOPATH/bin"
 	export PATH="$GOBIN:/usr/local/go/bin:$PATH"
+else
+	alias remtilde='find . -type f -iname "*~" -exec rm -vf {} \;'
+	alias wi='find . -type f -iname'
+	alias wid='find . -type d -iname'
+	alias sauk='python3 -m http.server'
+fi
+
+if test ! -x "$HOME/go/bin/eplogr"; then
+	if test -s "$HOME/.scripts/eplogr.py"; then
+		alias eplogr='python3 $HOME/.scripts/eplogr.py'
+	fi
 fi
 
 if test -d "$HOME/.npm-global"; then
@@ -66,11 +77,6 @@ alias ll='ls -lpF'
 alias sysupd='sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y'
 #alias evtupd="curl -o $HOME/.eventsrc https://schau.dk/happenings.json"
 alias sshr='ssh rsync'
-alias remtilde='find . -type f -iname "*~" -exec rm -vf {} \;'
-alias wi='find . -type f -iname'
-alias wid='find . -type d -iname'
-alias sauk='python3 -m http.server'
-alias eplogr='python3 $HOME/.scripts/eplogr.py'
 
 export CLICOLOR="yes"
 export EDITOR="vim"
